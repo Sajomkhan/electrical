@@ -3,8 +3,10 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #f4f4f4;
   --foreground: #171717;
+  --primary_1: #128299;
+  --primary_2: #1bd0f5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,5 +25,11 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base{
+  .container{
+    @apply mx-auto max-w-screen-xl
   }
 }
