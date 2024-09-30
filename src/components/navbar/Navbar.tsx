@@ -6,13 +6,16 @@ import { useState } from "react";
 import { FaX } from "react-icons/fa6";
 const sidebarMenu = [
   {
+    link: "/",
+    menu: "Home",
+  },
+  {
     link: "/about",
     menu: "About",
   },
-
   {
-    link: "/blog",
-    menu: "Blog",
+    link: "/services",
+    menu: "Services",
   },
   {
     link: "/contact",
@@ -21,10 +24,6 @@ const sidebarMenu = [
   {
     link: "/projects",
     menu: "Projects",
-  },
-  {
-    link: "/services",
-    menu: "Services",
   },
 ];
 

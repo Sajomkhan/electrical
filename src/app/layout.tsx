@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "./../components/navbar/Navbar";
+import Footer from "@/components/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +17,8 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Barishal Tech Support",
-  description: "Barishal Tech Support offers expert services tailored to diverse business needs, including Electrical Control & Power Circuit Support, AC Services, CCTV Surveillance, Fire System Solutions, and IT Support for Web Development",
+  description:
+    "Barishal Tech Support offers expert services tailored to diverse business needs, including Electrical Control & Power Circuit Support, AC Services, CCTV Surveillance, Fire System Solutions, and IT Support for Web Development",
 };
 
 export default function RootLayout({
@@ -31,7 +33,8 @@ export default function RootLayout({
       >
         <div className="w-full min-h-screen flex flex-col ">
           <Navbar />
-            {children}
+          {children}
+          <Footer />
         </div>
       </body>
     </html>

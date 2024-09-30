@@ -31,8 +31,7 @@ export default function Home() {
         </div>
         <ServicesCard />
       </div>
-      {/* FOOTER */}
-      <Footer />
+
     </div>
   );
 }

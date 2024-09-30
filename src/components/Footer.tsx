@@ -4,7 +4,13 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className=" bg-gray-950 text-white mt-14">
-      <div className="flex flex-col md:flex-row-reverse gap-4 justify-between items-center px-4 md:px-32 py-8">
+      <div className="flex flex-col md:flex-row gap-6 justify-between items-center px-4 md:px-32 py-8">
+        <p className="text-sm text-gray-400 text-center">
+          Address: Barishal Tech Support, Kawnia Road, Barishal.
+        </p>
+        <p className="text-sm text-gray-400">
+          © 2024 copyright all right reserved by Ajom
+        </p>
         <div className="flex gap-6">
           {socialmedias.map((socialmedia, index) => {
 
@@ -24,9 +30,6 @@ const Footer = () => {
             );
           })}
         </div>
-        <p className="text-sm text-gray-400">
-          © 2024 copyright all right reserved by Ajom
-        </p>
       </div>
     </div>
   );

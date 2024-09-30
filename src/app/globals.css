@@ -26,10 +26,10 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-@layer base{
   .container{
     @apply mx-auto max-w-screen-xl
   }
+}
+
+@layer base{
 }
