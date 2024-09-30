@@ -1,5 +1,4 @@
 import ServicesCard from "@/components/card/ServicesCard";
-import Footer from "@/components/Footer";
 import Hero from "@/components/hero/Hero";
 
 export default function Home() {
