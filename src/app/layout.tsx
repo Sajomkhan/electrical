@@ -16,9 +16,9 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Barishal Tech Support",
+  title: "SouthZone Tech Solution",
   description:
-    "Barishal Tech Support offers expert services tailored to diverse business needs, including Electrical Control & Power Circuit Support, AC Services, CCTV Surveillance, Fire System Solutions, and IT Support for Web Development",
+    "SouthZone Tech Solution offers expert electrical control systems, HVAC services, security solutions, and full-stack web development. Enhance your business efficiency, security, and digital presence with our customized solutions.",
 };
 
 export default function RootLayout({

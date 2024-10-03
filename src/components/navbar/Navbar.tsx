@@ -21,10 +21,6 @@ const sidebarMenu = [
     link: "/contact",
     menu: "Contact",
   },
-  {
-    link: "/projects",
-    menu: "Projects",
-  },
 ];
 
 const Navbar = () => {
@@ -37,7 +33,7 @@ const Navbar = () => {
         <div className="flex h-16  items-center justify-between">
             {/* LOGO */}
             <Link className="block text-primary_1 text-xl md:text-2xl font-bold" href="/">
-              Barishal Tech Support
+              BarZone Tech Solution
             </Link>
           {/* NAV MANU FOR DESTOP */}
           <nav className="hidden lg:block">
@@ -96,7 +92,7 @@ const Navbar = () => {
                       } w-full py-4 flex items-center justify-center`}
                       key={menu.menu}
                     >
-                      <Link href={menu.link} className="">
+                      <Link href={menu.link} className="" onClick={() => setMobileMenu(!mobileMenu)}>
                         {menu.menu}
                       </Link>
                     </li>

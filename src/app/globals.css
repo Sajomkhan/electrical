@@ -5,7 +5,7 @@
 :root {
   --background: #f4f4f4;
   --foreground: #171717;
-  --primary_1: #128299;
+  --primary_1: #02b8c2;
   --primary_2: #1bd0f5;
 }
 
@@ -32,4 +32,20 @@ body {
 }
 
 @layer base{
+  h1 {
+    @apply text-3xl lg:text-4xl 2xl:text-5xl font-semibold;
+  }
+  h2 {
+    @apply text-2xl lg:text-3xl 2xl:text-4xl font-semibold;
+  }
+  h3 {
+    @apply text-xl lg:text-2xl 2xl:text-3xl font-semibold;
+  }
+  h4 {
+    @apply text-lg lg:text-xl font-semibold;
+  }
+
+  .btn{
+    @apply max-w-fit rounded bg-primary_1 px-12 py-3 text-sm font-medium text-white hover:bg-primary_2 active:text-opacity-75 sm:w-auto ease-linear duration-300;
+  }
 }
