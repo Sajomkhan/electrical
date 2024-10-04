@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="flex h-16  items-center justify-between">
             {/* LOGO */}
             <Link className="block text-primary_1 text-xl md:text-2xl font-bold" href="/">
-              BarZone Tech Solution
+              SouthZone Tech Solution
             </Link>
           {/* NAV MANU FOR DESTOP */}
           <nav className="hidden lg:block">
