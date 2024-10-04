@@ -61,7 +61,12 @@ const ContactPage = () => {
 
   return (
     <div className="container lg:px-16">
-      <h1 className="lg:text-4xl text-center my-7">Contact us today for a consultation</h1>
+      <h1 className="lg:text-4xl text-center mt-7">Contact us today for a consultation</h1>
+      {/* --------------------Address--------------------- */}
+      <section className="mt-3 mb-7">
+        <h2 className="text-xl text-center font-normal">Address: SouthZone Tech Solution, Kawnia Road, Barishal.</h2>
+        <h2 className="text-xl text-center font-semibold">Mobile: 01911977375, 01715324158</h2>
+      </section>
       <div className="flex flex-col items-center justify-center lg:flex-row gap-8">
         {/* -------------Image Div----------------- */}
         <div className="h-full object-cover px-4">
@@ -77,7 +82,7 @@ const ContactPage = () => {
         {/* ------------Message Form---------------- */}
         <section className="max-w-[500px] flex flex-col gap-7 text-sm lg:text-base px-4">
           <p>
-            Explore our services and see how we can enhance your business
+            Send email and explore our services and see how we can enhance your business
             operations!
           </p>
           {/* -------------------Input Form------------------------- */}

@@ -11,11 +11,11 @@ const ServicesCard = () => {
           className="w-80 xl:w-64 flex flex-col gap-5 p-3 border hover:border-gray-400 rounded-lg"
           key={index}
         >
-          <div className="h-36 xl:h-52 w-full relative rounded-lg">
+          <section className="h-36 xl:h-52 w-full relative rounded-lg">
             <Image src={service.img} alt="" fill className="object-cover" />
-          </div>
+          </section>
           <div className="flex flex-col gap-3 text-sm">
-            <p className="font-semibold text-base">{service.title}</p>
+            <h2 className="font-semibold text-base">{service.title}</h2>
             <p className="">{service.desc.slice(0, 120)}</p>
           </div>
         </Link>

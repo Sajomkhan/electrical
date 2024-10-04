@@ -10,7 +10,9 @@ const text = `
 
 <h4><strong>Our Core Services:</strong></h4>
 
-<ul>
+<ul>    
+    <li><strong>IT Support for Web Development</strong>: We provide dedicated IT support for web development projects, covering server setup, database management, security optimization, and performance troubleshooting.</li><p><br></p>
+
     <li><strong>Electrical Control &amp; Power Circuit Solutions</strong>: We provide customized electrical solutions, including control panels, PLC programming, and automation systems to enhance the performance and safety of your operations.</li><p><br></p>
 
     <li><strong>AC Services</strong>: Our HVAC experts install, maintain, and optimize air conditioning systems for businesses and industrial facilities, ensuring efficient and reliable cooling.</li><p><br></p>
@@ -18,8 +20,6 @@ const text = `
     <li><strong>CCTV Surveillance Solutions and Support</strong>: We offer advanced CCTV surveillance systems designed to protect your premises 24/7. Our services include expert installation, real-time monitoring, and ongoing system maintenance for maximum security.</li><p><br></p>
 
     <li><strong>Fire Alarm System Solutions</strong>: Protect your business with our reliable fire detection and alarm systems. We design and install customized solutions to ensure rapid response and compliance with safety standards.</li><p><br></p>
-
-    <li><strong>IT Support for Web Development</strong>: We provide dedicated IT support for web development projects, covering server setup, database management, security optimization, and performance troubleshooting.</li><p><br></p>
 
     <li><strong>Full Stack Web Development</strong>: Our web development team builds custom, scalable, and responsive applications that are both user-friendly and efficient. We work with the latest technologies to deliver top-tier web solutions.</li><p><br></p>
 
